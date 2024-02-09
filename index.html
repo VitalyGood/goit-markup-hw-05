@@ -334,6 +334,23 @@
                     </svg></a></li> 
                 </ul>
             </div> 
+            <div class="footer-form">
+                <p class="text-footer-form">Subscribe</p>
+                <form class="footer-fotm">
+                    <label for="user-email-footer" class="footer-label">
+                        <input type="email"
+                        name="user-email-footer"
+                        class="user-email-for-footer"
+                        id="user-email-footer"
+                        placeholder="E-mail">
+                    </label>
+                    <button type="submit" class="btn-subscribe">Subscribe
+                        <svg class="icon-subscribe" width="24" height="24">
+                            <use href="./images/icons.svg#icon-subscribe"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
         </div>
     </footer> 
     
@@ -389,27 +406,26 @@
                     </div>
                 </div>
                 <div class="modal-field">
-                    <label for="user-text" class="modal-lable">Comment</label>
+                    <label for="user-comment" class="modal-lable">Comment</label>
                     <textarea 
-                    name="user-text" 
-                    id="user-text"
+                    name="user-comment" 
+                    id="user-comment"
                     class="modal-text" 
                     placeholder="Text input"
                     ></textarea>
                 </div>
                 <div class="modal-field">
-                <label for="policy" class="check-text">
-                <input 
-                type="checkbox"
-                name="modal-check"
-                id="modal-check"
-                class="checkbox-modal visually-hidden" 
-                value="true">
-                <span class="modal-policy">
-                    <svg class="icon-check" width="10" height="8">
-                        <use href="./images/icons.svg#icon-Check"></use>
-                    </svg>
-                </span> 
+                    <input type="checkbox" 
+                    name="user-privacy" 
+                    id="user-privacy" 
+                    class="checkbox-modal visually-hidden" 
+                    value="true">
+                <label for="user-privacy" class="check-text">
+                    <span class="modal-policy">
+                        <svg class="icon-check" width="10" height="8">
+                            <use href="./images/icons.svg#icon-Check"></use>
+                        </svg>
+                    </span>
                 I accept the terms and conditions of the 
                 <a href="#" class="policy-link">Privacy Policy</a>
                 </label>
